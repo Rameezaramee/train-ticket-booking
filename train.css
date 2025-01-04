@@ -1,0 +1,325 @@
+* {
+    font-family: 'poppins', sans-serif;
+}
+
+.main {
+    background-image: url(asset/wow.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+
+
+}
+
+.container {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 0 20 px;
+
+
+
+}
+
+span {
+    color: #fff;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 10px 0;
+
+
+}
+
+header {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+.input_field {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input {
+    height: 42px;
+    width: 75%;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    padding: 0 0 0 42px;
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+
+::-webkit-input-placeholder {
+    color: #fff;
+
+}
+
+.submit {
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    transition: 3s;
+}
+
+.submit:hover {
+    box-shadow: 1px 5px 7 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.left {
+    display: flex;
+
+
+}
+
+
+
+.button {
+    height: 15px;
+    width: 75%;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    padding: 10px 0 10px 0;
+    background: rgb(255, 255, 255, 0.1);
+}
+
+
+
+.happy {
+    background-image: url(asset/people.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: center;
+
+
+}
+
+.booking_form {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 500px;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.booking_form h2 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.booking_form form,.select_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking_form input {
+    padding: 7px;
+    border: 2px solid #ccc;
+    border-radius: 55px;
+}
+
+.booking_form button {
+    margin-top: 10px;
+    padding: 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+.booking_form button:hover {
+    background-color:aquamarine;
+
+
+}
+.magic{
+    background-image: url(asset/super.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: center;
+}
+.input_box{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 500px;
+    width: 80%;
+    margin: 0 auto;
+
+}
+.input_box h2{
+    text-align: center;
+
+}
+.input_box form{
+    display: flex;
+    flex-direction: column;
+
+}
+.input_box input{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.input_box button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+ 
+}
+.input_box button:hover{
+    background-color: aqua;
+}
+   
+.butten{
+    height: 15px;
+    width: 75%;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    padding: 15px 0 ;
+    background: rgb(255, 255, 255, 0.1);
+}
+.more{
+    background-image: url(asset/passengerclear.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: center;
+
+
+}
+.list{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    max-width: 500px;
+    width: 70%;
+    margin:0  auto;
+
+}
+.list h2{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.select_box select{
+    height:100% ;
+    width: 80%px;;
+    outline: none;
+    border: none;
+    color:black;
+    font-size:1rem;
+
+}
+.form button{
+    height: 55px;
+    width: 100%;
+    color: #ccc;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    background-color:rgba(130,106,251);
+    font: weight 400px; 
+}
+    
+.create{
+    background-image: url(asset/super.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: center;
+
+}
+.singer{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    max-width: 400px;
+    width: 80%;
+    margin: auto;
+
+}
+
+.singer h2{
+    text-align: center;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+.form button{
+    height: 65px;
+    width: 100%;
+    color:#ccc;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+     background-color:rgba(130,106,251);
+    font: weight 400px; 
+}
+.safe{
+    background-image: url(asset/PAYMENT-SUCCESS.png);
+    background-position: top;
+    background-size: 75%;
+    background-repeat: no-repeat;
+
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
